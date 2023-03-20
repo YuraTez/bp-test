@@ -1,0 +1,52 @@
+form {
+    padding: 0 1rem;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: $line-height-computed;
+    font-size: 1.5rem;
+    font-family: $headings-font-family;
+    line-height: inherit;
+    color: $text-color;
+    border: 0;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid rgb(204, 204, 204);
+    width: calc(100% - 2px - 1rem);
+    min-height: 3rem;
+    font-family: $font-family-base;
+    color: $text-color;
+    font-size: 1.2rem;
+    border-radius: 0;
+    padding: 0 1rem;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 1.2rem;
+    font-family: $font-family-base;
+}
+
+::-moz-placeholder {
+    color: #ccc;
+    font-size: 1.2rem;
+    font-family: $font-family-base;
+}
+
+:-ms-input-placeholder {
+    color: #ccc;
+    font-size: 1.2rem;
+    font-family: $font-family-base;
+}
+
+:-moz-placeholder {
+    color: #ccc;
+    font-size: 1.2rem;
+    font-family: $font-family-base;
+}
